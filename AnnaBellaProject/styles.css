@@ -1,0 +1,75 @@
+*{
+    text-align: center;
+}
+
+body {
+    background: #d2d2c1 url('images/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: 0;
+}
+#principal{
+    width: 100%;
+}
+
+#img-capa{
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.img-campaign {
+    width: 95%;
+    height: 60vh;
+    border: 10px solid #c3c3ae;
+}
+
+#menu {
+    background: #c5c5b2;
+    padding: 18px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+#conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    border: 1vh solid #c3c3ae;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+h1{
+    margin-bottom: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+hr{
+    width: 75%;
+    padding-bottom: 10px;
+    border-left: 0px;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#rodape h4 {
+    bottom: 0;
+    width: 63%;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    background: #e8e8d9;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1vh solid #c3c3ae;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
