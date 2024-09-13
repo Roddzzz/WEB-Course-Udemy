@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional - Visite já</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+
+            <div id="logo">
+                <h1>
+                    <a href="">Museu Nacional</a>
+                </h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Faça uma visita</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="principal">
+
+            <div id="conteudos">
+
+                <section id="capa">
+                    <img src="css/images/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+
+                    
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+
+                        <iframe width="310" height="170"
+                            src="https://www.youtube.com/embed/RGUYb-hivrc?si=yUrs6con0wPxvXb_"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Onde estamos</h3>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311821342!2d-43.22910382799832!3d-22.90575997925578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1725546253642!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+
+                        </iframe>
+                    </article>
+
+                    <img id="quebra-linha" style="clear: both;" src="css/images/fundo-rodape.png">
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Exposição dos objetos da história
+                                    <span>26 de janeiro a 2 de fevereiro de 2022</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Exposição dos anos de museu
+                                    <span>1 de janeiro a 31 de dezembro de 2021</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Exposição dos artistas
+                                    <span>20 de janeiro a 1 de fevereiro de 2022</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Exposição dos animais
+                                    <span>15 de janeiro a 1 de fevereiro de 2022</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Exposição dos eventos
+                                    <span>25 de janeiro a 1 de fevereiro de 2022</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+
+                        <p>
+                            &nbsp;&nbsp;O Museu Nacional do Rio de Janeiro, fundado em 1818 por Dom João VI, é uma das instituições
+                            culturais mais antigas e significativas do Brasil. Inicialmente chamado de Museu Real, foi
+                            estabelecido para colecionar e preservar itens de valor histórico, científico e cultural. A
+                            sede original era no Paço de São Cristóvão. Durante o século XIX, o museu expandiu suas
+                            coleções e promoveu pesquisas científicas, refletindo seu papel crescente na cultura e
+                            ciência brasileiras. Em 1892, tornou-se uma instituição acadêmica vinculada à Universidade
+                            do Brasil. No início do século XX, a construção de um novo edifício, projetado pelo
+                            arquiteto Pedro Ernesto, consolidou sua posição como um importante centro de pesquisa e
+                            preservação.
+                            <br><br>
+                            &nbsp;&nbsp;Durante o século XX, o museu continuou a se expandir e diversificar suas coleções,
+                            abrangendo áreas como paleontologia, antropologia e arqueologia. Seus acervos incluíam
+                            importantes fósseis, artefatos indígenas e coleções históricas. Em setembro de 2018, o museu
+                            sofreu um incêndio devastador que destruiu grande parte de suas coleções e documentos
+                            históricos, marcando um trágico ponto na sua história. Desde então, esforços para
+                            recuperação e reconstrução têm sido uma prioridade, com o objetivo de restaurar o museu à
+                            sua antiga glória e garantir a preservação de seu legado cultural para futuras gerações.
+                        </p>
+                    </article>
+
+                </section>
+
+            </div>
+
+            <aside id="lateral">
+                <section id="depoimento">
+                    <img src="css/images/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" style="margin-right:50px ;" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="pessoas">Pessoas</label>
+                            <input class="campo" style="width: 40px;" type="text" id="pessoas" value="1">
+
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="verificar disponibilidade">
+
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>
+                        Galeria de fotos
+                    </h4>
+
+                    <a href="">
+                        <img src="css/images/imagem1.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="css/images/imagem2.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="css/images/imagem3.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="css/images/imagem4.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="css/images/imagem5.jpg" height="93" width="93">
+                    </a>
+                    <a href="">
+                        <img src="css/images/imagem6.jpg" height="93" width="93">
+                    </a>
+
+
+                </section>
+            </aside>
+
+            <footer >
+                <div>
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Faça uma visita</a>
+                    <a href="">Contato</a>
+                </div>
+                <div>
+                    <a style="padding: 5px 0px 5px 0px;" href="">Museu Nacional</a> - Todos os direitos reservados
+                </div>
+            </footer>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
